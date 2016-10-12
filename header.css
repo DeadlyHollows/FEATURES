@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header-nav {
+	background-color: #39424e;
+}
+
+#categories {
+	width: 100%;
+	padding: 20px;
+	margin: 5px;
+	/*border: solid thin red;*/
+	list-style: none;
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+.header_links {
+	color: #C2C7D0;
+	/*border: solid thin blue;*/
+	font-weight: 600;
+	cursor: pointer;
+
+	/* Code for underline */
+}
+
+.header_links:hover {
+	color: #ffffff;
+
+}
